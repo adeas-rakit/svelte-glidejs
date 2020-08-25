@@ -1,42 +1,41 @@
 {
-  "name": "svelte-glidejs",
-  "version": "1.0.0",
-  "description": "glidejs on svelte",
-  "main": "index.js", 
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adeas-rakit/svelte-glidejs.git"
-  }, 
-  "author": "adeas",
-  "license": "MIT",
+  "name": "sevlte-glidejs",
+  "description": "Glidejs with svelte",
+  "repository": "adeas-rakit/sevlte-glide",
+  "author": "ade arwan setiawan <ade.arwans@gmail.com> (https://rakit.id/)",
   "bugs": {
-    "url": "https://github.com/adeas-rakit/svelte-glidejs/issues"
+    "url": "https://github.com/adeas-rakit/sevlte-glidejs/issues"
   },
-  "homepage": "https://github.com/adeas-rakit/svelte-glidejs#readme",
-"scripts": {
-  "build": "rollup -c",
-  "dev": "NODE_ENV=development rollup -cw",
-  "prepublishOnly": "npm run build"
-},
-"devDependencies": {
-  "@gen/rollup-plugin-generate-html": "^0.1.1",
-  "@rollup/plugin-commonjs": "^11.1.0",
-  "@rollup/plugin-node-resolve": "^6.0.0",
-  "rollup": "^1.20.0",
-  "rollup-plugin-serve": "^1.0.1",
-  "rollup-plugin-svelte": "^5.0.0",
-  "svelte": "^3.0.0",
-  "svelte-preprocess": "^3.7.4"
-},
-"keywords": [
-  "svelte",
-  "glidejs"
-],
-"files": [
-  "src",
-  "dist"
-],
-"dependencies": {
-  "@glidejs/glide": "^3.4.1"
-}
+  "homepage": "https://github.com/adeas-rakit/sevlte-glidejs",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "NODE_ENV=development rollup -cw",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@gen/rollup-plugin-generate-html": "^0.1.1",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^3.7.4"
+  },
+  "keywords": [
+    "svelte",
+    "glidejs"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
 }
