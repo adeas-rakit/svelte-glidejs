@@ -38,7 +38,7 @@
 
       return {
           update: glide.update,
-          destroy: glide.disable
+          //destroy: glide.disable
       }
     }
 
