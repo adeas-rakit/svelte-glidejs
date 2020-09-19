@@ -1,17 +1,17 @@
 {
-  "name": "sevlte-glidejs",
+  "name": "svelte-glidejs",
   "description": "Glidejs with svelte",
-  "repository": "adeas-rakit/sevlte-glide",
+  "repository": "adeas-rakit/svelte-glide",
   "author": "ade arwan setiawan <ade.arwans@gmail.com> (https://rakit.id/)",
   "bugs": {
-    "url": "https://github.com/adeas-rakit/sevlte-glidejs/issues"
+    "url": "https://github.com/adeas-rakit/svelte-glidejs/issues"
   },
-  "homepage": "https://github.com/adeas-rakit/sevlte-glidejs",
+  "homepage": "https://github.com/adeas-rakit/svelte-glidejs",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "scripts": {
     "build": "rollup -c",
     "dev": "NODE_ENV=development rollup -cw",
